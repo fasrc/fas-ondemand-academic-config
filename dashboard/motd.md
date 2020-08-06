@@ -30,19 +30,19 @@
   
   1. On the menu bar, click `Interactive Apps` and select the Jupyter app for your class. For example, if your class is CS109a, select `Jupyter Notebook - CS109a`.
   
-  ![Select-jupyter-app screenshot](./select-jupyter-app.png?raw=true)
+  ![Select-jupyter-app screenshot](./screenshots/select-jupyter-app.png?raw=true)
   
   2. On the following page, in `Allocated Time`, enter the approximate number of hours for which you would like to run your server. For example, for a 4 hour session, enter `04:00:00`. Afterwards, click `Launch`.
   
-  ![Launch-jupyter-server screenshot](./launch-jupyter-server.png?raw=true)
+  ![Launch-jupyter-server screenshot](./screenshots/launch-jupyter-server.png?raw=true)
   
   3. On the page that follows, click `Connect to Jupyter`. A new browser tab containing the Jupyter notebooks interface will open.
   
-  ![Connect-to-jupyter screenshot](./connect-to-jupyter.png?raw=true)
+  ![Connect-to-jupyter screenshot](./screenshots/connect-to-jupyter.png?raw=true)
   
   4. Select the jupyter kernel you want. For example, to start a notebook with the Python 3 jupyter kernel, click `New` then `Python 3`.
   
-  ![Select-python-3-kernel screenshot](./select-python-3-kernel.png?raw=true)
+  ![Select-python-3-kernel screenshot](./screenshots/select-python-3-kernel.png?raw=true)
   
   #### How to install python packages in your Jupyter Notebook server
   
@@ -50,11 +50,11 @@
   
   1. From the jupyter notebooks interface, click `New` then `Terminal`. A terminal will open in a new browser tab.
   
-  ![Open-a-terminal screenshot](./open-a-terminal.png?raw=true)
+  ![Open-a-terminal screenshot](./screenshots/open-a-terminal.png?raw=true)
   
   2. In the Terminal, run `pip install --user packagename`, replacing `packagename` with the python package you intend to install. E.g:
   
-  ![Install-python-package screenshot](./install-python-package.png?raw=true)
+  ![Install-python-package screenshot](./screenshots/install-python-package.png?raw=true)
   
   
   ## Rstudio
@@ -63,29 +63,29 @@
   
   1. On the menu bar, click `Interactive Apps` and select `Rstudio Server`.
   
-  ![Select-rstudio-App screenshot](./select-rstudio-app.png?raw=true)
+  ![Select-rstudio-App screenshot](./screenshots/select-rstudio-app.png?raw=true)
   
   2. On the following page, enter the `Memory Allocation in GB` and `Number of cores` depending on your compute requirements. 4GB of memory and 1 CPU core should be sufficient in most cases. Under `Allocated Time`, enter the approximate number of hours for which you'll be running your server. E.g., for 4 hours, enter `04:00:00`. Finally, under `rstudio version`, select the version of R you intend to use.
   
-  ![Rstudio-server-setup screenshot](./rstudio-server-setup.png?raw=true)
+  ![Rstudio-server-setup screenshot](./screenshots/rstudio-server-setup.png?raw=true)
   
   3. Click `Launch`.
   
-  ![Launch-rstudio-server screenshot](./launch-rstudio-server.png?raw=true)
+  ![Launch-rstudio-server screenshot](./screenshots/launch-rstudio-server.png?raw=true)
   
   4. On the page that follows, click `Connect to Rstudio Server`.
   
-  ![Connect-to-rstudio-server screenshot](./connect-to-rstudio-server.png?raw=true)
+  ![Connect-to-rstudio-server screenshot](./screenshots/connect-to-rstudio-server.png?raw=true)
   
   A new browser tab containing the Rstudio interface will open.
   
-  ![Rstudio-interface screenshot](./rstudio-interface.png?raw=true)
+  ![Rstudio-interface screenshot](./screenshots/rstudio-interface.png?raw=true)
   
   #### How to install R packages in your Rstudio server
   
   It is probable that the package you need is already pre-installed. At any rate, to install additional R packages, from the Rstudio console, run `install.packages('packagename')`. E.g, to install the package 'shiny', run `install.packages('shiny')`:
   
-  ![Install-r-packages.png screenshot](./install-r-packages.png?raw=true)
+  ![Install-r-packages.png screenshot](.screenshots//install-r-packages.png?raw=true)
   
 
   ## Documentation on Other Services and Applications
