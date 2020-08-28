@@ -1,32 +1,33 @@
-Welcome to FAS OnDemand
-============
+# Welcome to FAS OnDemand
 
 With FAS OnDemand, you can:
 
   * Run Jupyter Notebooks
-  * Run Rstudio
+  * Run Rstudio Server
   * Open an interactive remote desktop session to a compute node
   * Browse and edit your files
   * Open a terminal connection to a login node
 
 Click `Interactive Apps` in the menu bar above and select your application of choice (Jupyter Notebook, Rstudio, Comsol Multiphysics, Remote Desktop, etc) to get going.
 
-For reference, find more information below regarding:
+Find more information below regarding:
 
-  * Jupyter Notebooks
-    * Get started with Jupyter Notebooks on FAS OnDemand
-    * How to install python packages in your Jupyter Notebook server
-  * Rstudio
-    * Get started with Rstudio on FAS OnDemand
-    * How to install R packages in your Rstudio server
-  * Documentation on other services and applications, such as Remote Desktop
-  * Getting help
-  * System status and planned downtime
+  * [Jupyter Notebooks](#motd-jupyter-notebooks)
+    * [Get started with Jupyter Notebooks on FAS OnDemand](#motd-get-started-with-jupyter-notebooks-on-fas-ondemand)
+    * [How to install python packages in your Jupyter Notebook server](#motd-how-to-install-python-packages-in-your-jupyter-notebook-server)
+  * [Rstudio Server](#motd-rstudio-server)
+    * [Get started with Rstudio on FAS OnDemand](#motd-get-started-with-rstudio-on-fas-ondemand)
+    * [Troubleshooting Rstudio on FAS OnDemand](#motd-troubleshooting-rstudio-on-fas-ondemand)
+    * [Working with Rstudio on FAS OnDemand](#motd-working-with-rstudio-on-fas-ondemand)
+      * [How to install R packages in your Rstudio server](#motd-how-to-install-r-packages-in-your-rstudio-server)
+  * [Documentation on other services and applications, such as Remote Desktop](#motd-documentation-on-other-services-and-applications)
+  * [Getting help](#motd-getting-help)
+  * [System status and planned downtime](#motd-system-status-and-planned-downtime)
 
 
-## Jupyter Notebooks
+## Jupyter Notebooks <a id="motd-jupyter-notebooks"></a>
 
-### Get started with Jupyter Notebooks on FAS OnDemand
+### Get started with Jupyter Notebooks on FAS OnDemand <a id="motd-get-started-with-jupyter-notebooks-on-fas-ondemand"></a>
 
 1. On the menu bar, click `Interactive Apps` and select the Jupyter app for your class. For example, if your class is CS109a, select `Jupyter Notebook - CS109a`.
 ![Select-jupyter-app screenshot](public/userguide_assets/select-jupyter-app.png?raw=true)
@@ -40,7 +41,7 @@ For reference, find more information below regarding:
 4. Select the jupyter kernel you want. For example, to start a notebook with the Python 3 jupyter kernel, click `New` then `Python 3`.
 ![Select-python-3-kernel screenshot](public/userguide_assets/select-python-3-kernel.png?raw=true)
 
-#### How to install python packages in your Jupyter Notebook server
+#### How to install python packages in your Jupyter Notebook server <a id="motd-how-to-install-python-packages-in-your-jupyter-notebook-server"></a>
 
 It is probable that the package you need is already pre-installed and that you can import it in your notebooks with `import packagename`. If that is not the case, below are the steps to install a python package.
 
@@ -51,9 +52,9 @@ It is probable that the package you need is already pre-installed and that you c
 ![Install-python-package screenshot](public/userguide_assets/install-python-package.png?raw=true)
 
 
-## Rstudio
+## Rstudio Server <a id="motd-rstudio-server"></a>
 
-### Get started with Rstudio on FAS OnDemand
+### Get started with Rstudio on FAS OnDemand <a id="motd-get-started-with-rstudio-on-fas-ondemand"></a>
 
 1. On the menu bar, click `Interactive Apps` and select RStudio app for your class. For example, if your class is Gov 50, select `RStudio Server - Gov50`.
 ![Select-rstudio-App screenshot](public/userguide_assets/select-rstudio-app.png?raw=true)
@@ -67,7 +68,7 @@ It is probable that the package you need is already pre-installed and that you c
 4. A new browser tab with Rstudio will open. 
 ![Rstudio-interface screenshot](public/userguide_assets/rstudio-interface.png?raw=true)
 
-### Troubleshooting Rstudio on FAS OnDemand
+### Troubleshooting Rstudio on FAS OnDemand <a id="motd-troubleshooting-rstudio-on-fas-ondemand"></a>
 
 ### Restarting Rstudio
 
@@ -83,9 +84,9 @@ To restart your Rstudio server completely, follow these steps:
 4. Select the Rstudio app and launch a new server.
 ![Launch-rstudio-server screenshot](public/userguide_assets/launch-rstudio-server.png?raw=true)
 
-### Working with Rstudio on FAS OnDemand
+### Working with Rstudio on FAS OnDemand <a id="motd-working-with-rstudio-on-fas-ondemand"></a>
 
-#### How to install R packages in your Rstudio server
+#### How to install R packages in your Rstudio server <a id="motd-how-to-install-r-packages-in-your-rstudio-server"></a>
 
 Rstudio server comes preinstalled with most if not all packages required for your class, so if you can't find the package in the list of installed packages, make sure that you are connecting to the correct Rstudio app for your class before proceeding (e.g. `Rstudio Server - Gov50`).
 
@@ -97,9 +98,9 @@ For example, to install the [shiny](https://cran.r-project.org/web/packages/shin
 
 ![Install-r-packages.png screenshot](public/userguide_assets/install-r-packages.png?raw=true)
 
-The packages will be installed to the `R` folder in your home directory. 
+The packages will be installed to the `R` folder of your home directory. 
 
-## Documentation on Other Services and Applications
+## Documentation on Other Services and Applications <a id="motd-documentation-on-other-services-and-applications"></a>
 
 Refer to our [main documentation](https://docs.rc.fas.harvard.edu) to learn more on
 
@@ -108,12 +109,12 @@ Refer to our [main documentation](https://docs.rc.fas.harvard.edu) to learn more
   * [how to check your running](https://docs.rc.fas.harvard.edu/kb/convenient-slurm-commands/#Controlling_jobs) and [fairshare](https://docs.rc.fas.harvard.edu/kb/fairshare/)
   * [access scientific software in your jobs](https://docs.rc.fas.harvard.edu/kb/software/)
 
-## Getting Help
+## Getting Help <a id="motd-getting-help"></a>
 
 If you need help, please contact us following [these instructions](https://docs.rc.fas.harvard.edu/kb/support/), or come at visit us at our [office hours sessions](https://www.rc.fas.harvard.edu/training/office-hours/).
 
-## System Status and Planned Downtime
--------------------
+## System Status and Planned Downtime <a id="motd-system-status-and-planned-downtime"></a>
+
 Please refer to [https://status.rc.fas.harvard.edu/](https://status.rc.fas.harvard.edu/) to get the latest information on the status of the system.
 
 You can find inormation on our [monthly planned maintenance window at this page](https://www.rc.fas.harvard.edu/maintenance).
