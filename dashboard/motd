@@ -26,7 +26,7 @@ For reference, find more information below regarding:
 
 ## Jupyter Notebooks
 
-#### Get started with Jupyter Notebooks on FAS OnDemand
+### Get started with Jupyter Notebooks on FAS OnDemand
 
 1. On the menu bar, click `Interactive Apps` and select the Jupyter app for your class. For example, if your class is CS109a, select `Jupyter Notebook - CS109a`.
 ![Select-jupyter-app screenshot](public/userguide_assets/select-jupyter-app.png?raw=true)
@@ -53,27 +53,51 @@ It is probable that the package you need is already pre-installed and that you c
 
 ## Rstudio
 
-#### Get started with Rstudio on FAS OnDemand
+### Get started with Rstudio on FAS OnDemand
 
-1. On the menu bar, click `Interactive Apps` and select `Rstudio Server`.
+1. On the menu bar, click `Interactive Apps` and select RStudio app for your class. For example, if your class is Gov 50, select `RStudio Server - Gov50`.
 ![Select-rstudio-App screenshot](public/userguide_assets/select-rstudio-app.png?raw=true)
 
-2. On the following page, enter the `Memory Allocation in GB` and `Number of cores` depending on your compute requirements. 4GB of memory and 1 CPU core should be sufficient in most cases. Under `Allocated Time`, enter the approximate number of hours for which you'll be running your server. E.g., for 4 hours, enter `04:00:00`. Finally, under `rstudio version`, select the version of R you intend to use.
-![Rstudio-server-setup screenshot](public/userguide_assets/rstudio-server-setup.png?raw=true)
-
-3. Click `Launch`.
+2. Click `Launch`.
 ![Launch-rstudio-server screenshot](public/userguide_assets/launch-rstudio-server.png?raw=true)
 
-4. On the page that follows, click `Connect to Rstudio Server`.
+3. On the page that follows, click `Connect to Rstudio Server`.
 ![Connect-to-rstudio-server screenshot](public/userguide_assets/connect-to-rstudio-server.png?raw=true)
 
-A new browser tab containing the Rstudio interface will open.
+4. A new browser tab with Rstudio will open. 
 ![Rstudio-interface screenshot](public/userguide_assets/rstudio-interface.png?raw=true)
+
+### Troubleshooting Rstudio on FAS OnDemand
+
+### Restarting Rstudio
+
+To restart your Rstudio server completely, follow these steps:
+
+1. Navigate to `Interactive Sessions` in FAS OnDemand.
+![Navigate-to-interactive-sessions.png screenshot](public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
+2. Click `Delete` to stop your Rstudio server.
+![Stop-rstudio-server.png screenshot](public/userguide_assets/stop-rstudio-server.png?raw=true)
+3. Click `Confirm` when prmopted.  _Note: data that is stored in your home folder will be preserved so when you start a new server, your data will be available._
+![confirm-delete-rstudio-session.png screenshot](public/userguide_assets/confirm-delete-rstudio-session.png?raw=true)
+![after-delete-no-active-rstudio-sessions.png screenshot](public/userguide_assets/after-delete-no-active-rstudio-sessions.png?raw=true)
+4. Select the Rstudio app and launch a new server.
+![Launch-rstudio-server screenshot](public/userguide_assets/launch-rstudio-server.png?raw=true)
+
+### Working with Rstudio on FAS OnDemand
 
 #### How to install R packages in your Rstudio server
 
-It is probable that the package you need is already pre-installed. At any rate, to install additional R packages, from the Rstudio console, run `install.packages('packagename')`. E.g, to install the package 'shiny', run `install.packages('shiny')`:
+Most if not all packages you need for class should be preinstalled. If you can't find the package in the list of installed packages, make sure that you are connecting to the correct Rstudio app for your class (e.g. Gov50).
+
+In the event that you need to install additional R packages, you can install from CRAN or github as follows:
+- CRAN: `install.packages('packagename')` 
+- Github: `remotes::install_github('user/packagename')`
+
+For example, to install the [shiny](https://cran.r-project.org/web/packages/shiny/index.html) package, run `install.packages('shiny')`:
+
 ![Install-r-packages.png screenshot](public/userguide_assets/install-r-packages.png?raw=true)
+
+Note that this will install to yoru 
 
 
 ## Documentation on Other Services and Applications
