@@ -73,11 +73,11 @@ It is probable that the package you need is already pre-installed and that you c
 
 To restart your Rstudio server completely, follow these steps:
 
-1. Navigate to `Interactive Sessions` in FAS OnDemand.
+1. Navigate to `My Interactive Sessions` in FAS OnDemand.
 ![Navigate-to-interactive-sessions.png screenshot](public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
 2. Click `Delete` to stop your Rstudio server.
 ![Stop-rstudio-server.png screenshot](public/userguide_assets/stop-rstudio-server.png?raw=true)
-3. Click `Confirm` when prmopted.  _Note: data that is stored in your home folder will be preserved so when you start a new server, your data will be available._
+3. Click `Confirm` when prompted.  _Note: data that is stored in your home folder will be preserved so when you start a new server, your data will be available._
 ![confirm-delete-rstudio-session.png screenshot](public/userguide_assets/confirm-delete-rstudio-session.png?raw=true)
 ![after-delete-no-active-rstudio-sessions.png screenshot](public/userguide_assets/after-delete-no-active-rstudio-sessions.png?raw=true)
 4. Select the Rstudio app and launch a new server.
@@ -87,7 +87,7 @@ To restart your Rstudio server completely, follow these steps:
 
 #### How to install R packages in your Rstudio server
 
-Most if not all packages you need for class should be preinstalled. If you can't find the package in the list of installed packages, make sure that you are connecting to the correct Rstudio app for your class (e.g. Gov50).
+Rstudio server comes preinstalled with most if not all packages required for your class, so if you can't find the package in the list of installed packages, make sure that you are connecting to the correct Rstudio app for your class before proceeding (e.g. `Rstudio Server - Gov50`).
 
 In the event that you need to install additional R packages, you can install from CRAN or github as follows:
 - CRAN: `install.packages('packagename')` 
@@ -97,8 +97,7 @@ For example, to install the [shiny](https://cran.r-project.org/web/packages/shin
 
 ![Install-r-packages.png screenshot](public/userguide_assets/install-r-packages.png?raw=true)
 
-Note that this will install to yoru 
-
+The packages will be installed to the `R` folder in your home directory. 
 
 ## Documentation on Other Services and Applications
 
