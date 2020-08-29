@@ -32,26 +32,26 @@ Find more information below regarding:
 
 ### Get started with Jupyter Notebooks on FAS OnDemand <a id="motd-get-started-with-jupyter-notebooks-on-fas-ondemand"></a>
 
-1. On the menu bar, click `Interactive Apps` and select the Jupyter app for your class. For example, if your class is CS109a, select `Jupyter Notebook - CS109a`.
+1. On the menu bar, click `Interactive Apps` and select the Jupyter app for your class. For example, if your class is CS109a, select `Jupyter Notebook - CS109a`.<br/>
 ![Select-jupyter-app screenshot](/public/userguide_assets/select-jupyter-app.png?raw=true)
 
-2. On the following page, in `Allocated Time`, enter the approximate number of hours for which you would like to run your server. For example, for a 4 hour session, enter `04:00:00`. Afterwards, click `Launch`.
+2. On the following page, in `Allocated Time`, enter the approximate number of hours for which you would like to run your server. For example, for a 4 hour session, enter `04:00:00`. Afterwards, click `Launch`.<br/>
 ![Launch-jupyter-server screenshot](/public/userguide_assets/launch-jupyter-server.png?raw=true)
 
-3. On the page that follows, click `Connect to Jupyter`. A new browser tab containing the Jupyter notebooks interface will open.
+3. On the page that follows, click `Connect to Jupyter`. A new browser tab containing the Jupyter notebooks interface will open.<br/>
 ![Connect-to-jupyter screenshot](/public/userguide_assets/connect-to-jupyter.png?raw=true)
 
-4. Select the jupyter kernel you want. For example, to start a notebook with the Python 3 jupyter kernel, click `New` then `Python 3`.
+4. Select the jupyter kernel you want. For example, to start a notebook with the Python 3 jupyter kernel, click `New` then `Python 3`.<br/>
 ![Select-python-3-kernel screenshot](/public/userguide_assets/select-python-3-kernel.png?raw=true)
 
 ### How to install python packages in your Jupyter Notebook server <a id="motd-how-to-install-python-packages-in-your-jupyter-notebook-server"></a>
 
 It is probable that the package you need is already pre-installed and that you can import it in your notebooks with `import packagename`. If that is not the case, below are the steps to install a python package.
 
-1. From the jupyter notebooks interface, click `New` then `Terminal`. A terminal will open in a new browser tab.
+1. From the jupyter notebooks interface, click `New` then `Terminal`. A terminal will open in a new browser tab.<br/>
 ![Open-a-terminal screenshot](/public/userguide_assets/open-a-terminal.png?raw=true)
 
-2. In the Terminal, run `pip install --user packagename`, replacing `packagename` with the python package you intend to install. E.g:
+2. In the Terminal, run `pip install --user packagename`, replacing `packagename` with the python package you intend to install. E.g:<br/>
 ![Install-python-package screenshot](/public/userguide_assets/install-python-package.png?raw=true)
 
 
@@ -59,16 +59,16 @@ It is probable that the package you need is already pre-installed and that you c
 
 ### Get started with Rstudio on FAS OnDemand <a id="motd-get-started-with-rstudio-on-fas-ondemand"></a>
 
-1. On the menu bar, click `Interactive Apps` and select RStudio app for your class. For example, if your class is Gov 50, select `RStudio Server - Gov50`.
+1. On the menu bar, click `Interactive Apps` and select RStudio app for your class. For example, if your class is Gov 50, select `RStudio Server - Gov50`.<br/>
 ![Select-rstudio-App screenshot](/public/userguide_assets/select-rstudio-app.png?raw=true)
 
-2. Click `Launch`.
+2. Click `Launch`.<br/>
 ![Launch-rstudio-server screenshot](/public/userguide_assets/launch-rstudio-server.png?raw=true)
 
-3. On the page that follows, click `Connect to Rstudio Server`.
+3. On the page that follows, click `Connect to Rstudio Server`.<br/>
 ![Connect-to-rstudio-server screenshot](/public/userguide_assets/connect-to-rstudio-server.png?raw=true)
 
-4. A new browser tab with Rstudio will open. 
+4. A new browser tab with Rstudio will open.<br/> 
 ![Rstudio-interface screenshot](/public/userguide_assets/rstudio-interface.png?raw=true)
 
 ### Troubleshooting Rstudio on FAS OnDemand <a id="motd-troubleshooting-rstudio-on-fas-ondemand"></a>
@@ -77,17 +77,17 @@ It is probable that the package you need is already pre-installed and that you c
 
 To restart your Rstudio server completely, follow these steps:
 
-1. Navigate to `My Interactive Sessions` in FAS OnDemand.
+1. Navigate to `My Interactive Sessions` in FAS OnDemand.<br/>
 ![Navigate-to-interactive-sessions.png screenshot](/public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
 
-2. Click `Delete` to stop your Rstudio server.
+2. Click `Delete` to stop your Rstudio server.<br/>
 ![Stop-rstudio-server.png screenshot](/public/userguide_assets/stop-rstudio-server.png?raw=true)
 
-3. Click `Confirm` when prompted.  _Note: data that is stored in your home folder will be preserved so when you start a new server, your data will be available._
+3. Click `Confirm` when prompted.  _Note: data that is stored in your home folder will be preserved so when you start a new server, your data will be available._<br/>
 ![confirm-delete-rstudio-session.png screenshot](/public/userguide_assets/confirm-delete-rstudio-session.png?raw=true)
 ![after-delete-no-active-rstudio-sessions.png screenshot](/public/userguide_assets/after-delete-no-active-rstudio-sessions.png?raw=true)
 
-4. Select the Rstudio app and launch a new server.
+4. Select the Rstudio app and launch a new server.<br/>
 ![Launch-rstudio-server.png screenshot](/public/userguide_assets/launch-rstudio-server.png?raw=true)
 
 ### Error launching Rstudio <a id="motd-error-launching-rstudio"></a>
@@ -108,10 +108,10 @@ If you have been logged out of Rstudio (because of inactivity, for example) then
 
 To log back in to your Rstudio session, close that login page and then:
 
-1. Navigate to `My Interactive Sessions` in FAS OnDemand.
+1. Navigate to `My Interactive Sessions` in FAS OnDemand.<br/>
 ![Navigate-to-interactive-sessions.png screenshot](/public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
 
-2. Re-connect to your running Rstudio session:
+2. Re-connect to your running Rstudio session:<br/>
 ![Connect-to-rstudio-server screenshot](/public/userguide_assets/connect-to-rstudio-server.png?raw=true)
 
 ### Working with Rstudio on FAS OnDemand <a id="motd-working-with-rstudio-on-fas-ondemand"></a>
