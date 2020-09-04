@@ -89,6 +89,7 @@ To restart your Rstudio server completely, follow these steps:
 
 3. Click `Confirm`.<br/>
 ![confirm-delete-rstudio-session.png screenshot](/public/userguide_assets/confirm-delete-rstudio-session.png?raw=true)
+<br/>
 ![after-delete-no-active-rstudio-sessions.png screenshot](/public/userguide_assets/after-delete-no-active-rstudio-sessions.png?raw=true)
 
 4. Select the Rstudio app and launch a new server.<br/>
@@ -121,6 +122,7 @@ Follow the steps below to connect Rstudio to github with HTTPS:
 
 3. Enter a **Note** (e.g. your course name), select **repo** scope(full control of private repositories), and then click `Generate token`.<br/>
 ![github-generate-new-token.png screenshot](/public/userguide_assets/github-generate-new-token.png?raw=true)
+<br/>
 ![github-generate-new-token-submit.png screenshot](/public/userguide_assets/github-generate-new-token-submit.png?raw=true)
 
 4. Copy this token or _PAT_ to your clipboard (click the clipboard icon).<br/>
@@ -181,7 +183,7 @@ Follow the steps below to connect Rstudio to github with SSH:
 6. Click `New SSH key`.
     - For `Title`, enter a descriptive name (e.g. `OnDemand GOV50`).
     - For `Key`, paste the public key that you previously copied to your clipboard (see steps 3-4). <br/>
-    - Then click `Add SSH key`.
+    - Then click `Add SSH key`. <br/>
 ![Github-add-new-public-key.png screenshot](/public/userguide_assets/github-add-new-public-key.png?raw=true) <br/>
 ![Github-view-ssh-keys.png screenshot](/public/userguide_assets/github-view-ssh-keys.png?raw=true)
 
