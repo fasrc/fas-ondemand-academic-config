@@ -35,26 +35,26 @@ Find more information below regarding:
 ### Getting started with Jupyter Notebooks on FAS OnDemand <a id="motd-get-started-with-jupyter-notebooks-on-fas-ondemand"></a>
 
 1. On the menu bar, click `Interactive Apps` and select the Jupyter app for your class. For example, if your class is CS109a, select `Jupyter Notebook - CS109a`.<br/>
-![Select-jupyter-app screenshot](./public/userguide_assets/select-jupyter-app.png?raw=true)
+![Select-jupyter-app screenshot](/public/userguide_assets/select-jupyter-app.png?raw=true)
 
 2. On the following page, in `Allocated Time`, enter the approximate number of hours for which you would like to run your server. For example, for a 4 hour session, enter `04:00:00`. Afterwards, click `Launch`.<br/>
-![Launch-jupyter-server screenshot](./public/userguide_assets/launch-jupyter-server.png?raw=true)
+![Launch-jupyter-server screenshot](/public/userguide_assets/launch-jupyter-server.png?raw=true)
 
 3. On the page that follows, click `Connect to Jupyter`. A new browser tab containing the Jupyter notebooks interface will open.<br/>
-![Connect-to-jupyter screenshot](./public/userguide_assets/connect-to-jupyter.png?raw=true)
+![Connect-to-jupyter screenshot](/public/userguide_assets/connect-to-jupyter.png?raw=true)
 
 4. Select the jupyter kernel you want. For example, to start a notebook with the Python 3 jupyter kernel, click `New` then `Python 3`.<br/>
-![Select-python-3-kernel screenshot](./public/userguide_assets/select-python-3-kernel.png?raw=true)
+![Select-python-3-kernel screenshot](/public/userguide_assets/select-python-3-kernel.png?raw=true)
 
 ### How to install python packages <a id="motd-how-to-install-python-packages"></a>
 
 It is probable that the package you need is already pre-installed and that you can import it in your notebooks with `import packagename`. If that is not the case, below are the steps to install a python package.
 
 1. From the jupyter notebooks interface, click `New` then `Terminal`. A terminal will open in a new browser tab.<br/>
-![Open-a-terminal screenshot](./public/userguide_assets/open-a-terminal.png?raw=true)
+![Open-a-terminal screenshot](/public/userguide_assets/open-a-terminal.png?raw=true)
 
 2. In the Terminal, run `pip install --user packagename`, replacing `packagename` with the python package you intend to install. E.g:<br/>
-![Install-python-package screenshot](./public/userguide_assets/install-python-package.png?raw=true)
+![Install-python-package screenshot](/public/userguide_assets/install-python-package.png?raw=true)
 
 
 ## Rstudio Server <a id="motd-rstudio-server"></a>
@@ -62,16 +62,16 @@ It is probable that the package you need is already pre-installed and that you c
 ### Getting started with Rstudio on FAS OnDemand<a id="motd-get-started-with-rstudio-on-fas-ondemand"></a>
 
 1. On the menu bar, click `Interactive Apps` and select RStudio app for your class. For example, if your class is Gov 50, select `RStudio Server - Gov50`.<br/>
-![Select-rstudio-App screenshot](./public/userguide_assets/select-rstudio-app.png?raw=true)
+![Select-rstudio-App screenshot](/public/userguide_assets/select-rstudio-app.png?raw=true)
 
 2. Click `Launch`.<br/>
-![Launch-rstudio-server screenshot](./public/userguide_assets/launch-rstudio-server.png?raw=true)
+![Launch-rstudio-server screenshot](/public/userguide_assets/launch-rstudio-server.png?raw=true)
 
 3. On the page that follows, click `Connect to Rstudio Server`.<br/>
-![Connect-to-rstudio-server screenshot](./public/userguide_assets/connect-to-rstudio-server.png?raw=true)
+![Connect-to-rstudio-server screenshot](/public/userguide_assets/connect-to-rstudio-server.png?raw=true)
 
 4. A new browser tab with Rstudio will open.<br/> 
-![Rstudio-interface screenshot](./public/userguide_assets/rstudio-interface.png?raw=true)
+![Rstudio-interface screenshot](/public/userguide_assets/rstudio-interface.png?raw=true)
 
 ### Working with Rstudio<a id="motd-working-with-rstudio"></a>
 
@@ -82,17 +82,17 @@ _Before you restart, make sure any programs and data files that you want to pres
 To restart your Rstudio server completely, follow these steps:
 
 1. Navigate to `My Interactive Sessions` in FAS OnDemand.<br/>
-![Navigate-to-interactive-sessions.png screenshot](./public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
+![Navigate-to-interactive-sessions.png screenshot](/public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
 
 2. Click `Delete` to remove your Rstudio server.<br/>
-![Stop-rstudio-server.png screenshot](./public/userguide_assets/stop-rstudio-server.png?raw=true)
+![Stop-rstudio-server.png screenshot](/public/userguide_assets/stop-rstudio-server.png?raw=true)
 
 3. Click `Confirm`.<br/>
-![confirm-delete-rstudio-session.png screenshot](./public/userguide_assets/confirm-delete-rstudio-session.png?raw=true)
-![after-delete-no-active-rstudio-sessions.png screenshot](./public/userguide_assets/after-delete-no-active-rstudio-sessions.png?raw=true)
+![confirm-delete-rstudio-session.png screenshot](/public/userguide_assets/confirm-delete-rstudio-session.png?raw=true)
+![after-delete-no-active-rstudio-sessions.png screenshot](/public/userguide_assets/after-delete-no-active-rstudio-sessions.png?raw=true)
 
 4. Select the Rstudio app and launch a new server.<br/>
-![Launch-rstudio-server.png screenshot](./public/userguide_assets/launch-rstudio-server.png?raw=true)
+![Launch-rstudio-server.png screenshot](/public/userguide_assets/launch-rstudio-server.png?raw=true)
 
 
 #### How to install R packages <a id="motd-how-to-install-r-packages"></a>
@@ -105,7 +105,7 @@ In the event that you need to install additional R packages, you can install fro
 
 For example, to install the [shiny](https://cran.r-project.org/web/packages/shiny/index.html) package, run `install.packages('shiny')`:
 
-![Install-r-packages.png screenshot](./public/userguide_assets/install-r-packages.png?raw=true)
+![Install-r-packages.png screenshot](/public/userguide_assets/install-r-packages.png?raw=true)
 
 The packages will be installed to the `R` folder of your home directory. 
 
@@ -117,14 +117,14 @@ Follow the steps below to connect Rstudio to github with HTTPS:
 1. Open a new browser tab and visit [https://github.com/settings/tokens](https://github.com/settings/tokens). You may be prompted to login to your github account.<br/>
 
 2. Click `Generate new token`.<br/>
-![github-personal-acces-tokens.png screenshot](./public/userguide_assets/github-personal-acces-tokens.png?raw=true)
+![github-personal-acces-tokens.png screenshot](/public/userguide_assets/github-personal-acces-tokens.png?raw=true)
 
 3. Enter a **Note** (e.g. your course name), select **repo** scope(full control of private repositories), and then click `Generate token`.<br/>
-![github-generate-new-token.png screenshot](./public/userguide_assets/github-generate-new-token.png?raw=true)
-![github-generate-new-token-submit.png screenshot](./public/userguide_assets/github-generate-new-token-submit.png?raw=true)
+![github-generate-new-token.png screenshot](/public/userguide_assets/github-generate-new-token.png?raw=true)
+![github-generate-new-token-submit.png screenshot](/public/userguide_assets/github-generate-new-token-submit.png?raw=true)
 
 4. Copy this token or _PAT_ to your clipboard (click the clipboard icon).<br/>
-![github-personal-access-token-generated.png screenshot](./public/userguide_assets/github-personal-access-token-generated.png?raw=true)
+![github-personal-access-token-generated.png screenshot](/public/userguide_assets/github-personal-access-token-generated.png?raw=true)
 
 5. In Rstudio, define an environment variable in `.Renviron` named `GITHUB_PAT` by following these steps:<br/>
 
@@ -141,11 +141,11 @@ Follow the steps below to connect Rstudio to github with HTTPS:
     GITHUB_PAT=PasteYourTokenHere
     ```
 
-    ![github-add-pat-to-renviron.png screenshot](./public/userguide_assets/github-add-pat-to-renviron.png?raw=true)
+    ![github-add-pat-to-renviron.png screenshot](/public/userguide_assets/github-add-pat-to-renviron.png?raw=true)
 
     c. Save `.Renviron` and then close it.<br/>
 
-    ![github-add-pat-to-renviron-save.png screenshot](./public/userguide_assets/github-add-pat-to-renviron-save.png?raw=true)
+    ![github-add-pat-to-renviron-save.png screenshot](/public/userguide_assets/github-add-pat-to-renviron-save.png?raw=true)
 
 6. In Rstudio, set your git credentials. Enter the following in your **Console**, and when prompted, enter your _PAT_ for the password.<br/>
     
@@ -165,16 +165,16 @@ Follow the steps below to connect Rstudio to github with HTTPS:
 Follow the steps below to connect Rstudio to github with SSH:
 
 1. Connect to Rstudio and navigate to `Tools > Global Options`.<br/>
-![Rstudio-navigate-to-global-options.png screenshot](./public/userguide_assets/rstudio-navigate-to-global-options.png?raw=true)
+![Rstudio-navigate-to-global-options.png screenshot](/public/userguide_assets/rstudio-navigate-to-global-options.png?raw=true)
 
 2. Select the options for `Git/SVN`.<br/>
-![Rstudio-global-options-git.png screenshot](./public/userguide_assets/rstudio-global-options-git.png?raw=true)
+![Rstudio-global-options-git.png screenshot](/public/userguide_assets/rstudio-global-options-git.png?raw=true)
 
 3. Click `View public key`. _Note: this key is automatically created for you when you first login to FAS OnDemand._<br/>
-![Rstudio-global-options-git-view-public-key.png screenshot](./public/userguide_assets/rstudio-global-options-git-view-public-key.png?raw=true)
+![Rstudio-global-options-git-view-public-key.png screenshot](/public/userguide_assets/rstudio-global-options-git-view-public-key.png?raw=true)
 
 4. Copy the key to your clipboard. Everything in the box needs to be copied, starting with `ssh-rsa ...`.<br/>
-![Rstudio-global-options-git-view-public-key-details.png screenshot](./public/userguide_assets/rstudio-global-options-git-view-public-key-details.png?raw=true)
+![Rstudio-global-options-git-view-public-key-details.png screenshot](/public/userguide_assets/rstudio-global-options-git-view-public-key-details.png?raw=true)
 
 5. Open a new browser tab and visit [https://github.com/settings/keys](https://github.com/settings/keys). You may be prompted to login to your github account.<br/>
 
@@ -182,13 +182,13 @@ Follow the steps below to connect Rstudio to github with SSH:
     - For `Title`, enter a descriptive name (e.g. `OnDemand GOV50`).
     - For `Key`, paste the public key that you previously copied to your clipboard (see steps 3-4). <br/>
     - Then click `Add SSH key`.
-![Github-add-new-public-key.png screenshot](./public/userguide_assets/github-add-new-public-key.png?raw=true) <br/>
-![Github-view-ssh-keys.png screenshot](./public/userguide_assets/github-view-ssh-keys.png?raw=true)
+![Github-add-new-public-key.png screenshot](/public/userguide_assets/github-add-new-public-key.png?raw=true) <br/>
+![Github-view-ssh-keys.png screenshot](/public/userguide_assets/github-view-ssh-keys.png?raw=true)
 
 7. Now you should be able to _Create a Project from Version Control_ in RStudio using the SSH URL from github as the `Repository URL`.<br/>
 
-    ![github-clone-switch-to-ssh.png screenshot](./public/userguide_assets/github-clone-switch-to-ssh.png?raw=true)<br/>
-    ![github-clone-ssh-url.png screenshot](./public/userguide_assets/github-clone-ssh-url.png?raw=true)
+    ![github-clone-switch-to-ssh.png screenshot](/public/userguide_assets/github-clone-switch-to-ssh.png?raw=true)<br/>
+    ![github-clone-ssh-url.png screenshot](/public/userguide_assets/github-clone-ssh-url.png?raw=true)
 
 
 ### Troubleshooting Rstudio <a id="motd-troubleshooting-rstudio"></a>
@@ -197,7 +197,7 @@ Follow the steps below to connect Rstudio to github with SSH:
 
 If Rstudio will not start and you get an error message like this:
 
-![sbatch-error-on-launch.png screenshot](./public/userguide_assets/sbatch-error-on-launch.png?raw=true)
+![sbatch-error-on-launch.png screenshot](/public/userguide_assets/sbatch-error-on-launch.png?raw=true)
 
 Wait 2-3 minutes and try to re-launch the application. This may happen the very first time you login to FAS OnDemand and your account hasn't been fully provisioned yet.
 
@@ -207,15 +207,15 @@ If you continue to get this error or otherwise cannot start Rstudio, please cont
 
 If you have been logged out of Rstudio (because of inactivity, for example) then you may see a login screen like this:
 
-![rstudio-login-screen.png screenshot](./public/userguide_assets/rstudio-login-screen.png?raw=true)
+![rstudio-login-screen.png screenshot](/public/userguide_assets/rstudio-login-screen.png?raw=true)
 
 To log back in to your Rstudio session, close that login page and then follow these steps:
 
 1. Navigate to `My Interactive Sessions` in FAS OnDemand.<br/>
-![Navigate-to-interactive-sessions.png screenshot](./public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
+![Navigate-to-interactive-sessions.png screenshot](/public/userguide_assets/navigate-to-interactive-sessions.png?raw=true)
 
 2. Re-connect to your running Rstudio session:<br/>
-![Connect-to-rstudio-server screenshot](./public/userguide_assets/connect-to-rstudio-server.png?raw=true)
+![Connect-to-rstudio-server screenshot](/public/userguide_assets/connect-to-rstudio-server.png?raw=true)
 
 ## Documentation on Other Services and Applications <a id="motd-documentation-on-other-services-and-applications"></a>
 
